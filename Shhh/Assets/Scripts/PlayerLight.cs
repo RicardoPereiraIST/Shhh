@@ -7,9 +7,9 @@ public class PlayerLight : MonoBehaviour {
 
     public float animationSpeed;
 
-    private int lastState = 0;
     private int newState = 0;
 
+    public float initSpotAngle;
     public float stopSpotAngle;
     public float walkSpotAngle;
     public float runSpotAngle;
@@ -24,10 +24,9 @@ public class PlayerLight : MonoBehaviour {
     public void UpdateSpotAngle(bool isMoving, bool running)
     {
         int state = Convert.ToInt32(isMoving) + Convert.ToInt32(running);
-        if (newState != state)
+        if (!animating)
         {
             StopCoroutine("Animate");
-            lastState = newState;
             newState = state;
             StartCoroutine("Animate");
         }
@@ -71,6 +70,7 @@ public class PlayerLight : MonoBehaviour {
             this.GetComponent<Light>().spotAngle = Mathf.Lerp(this.GetComponent<Light>().spotAngle, stateToAngle(newState), percent);
             yield return null;
         }
+        this.GetComponent<Light>().spotAngle = initSpotAngle;
         animating = false;
     }
 }
