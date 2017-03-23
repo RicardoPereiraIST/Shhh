@@ -11,7 +11,6 @@ public class Player : MonoBehaviour {
 
     PlayerController controller;
     public Light spotlight;
-    public Cylinder cylinder;
 
     private bool isMoving = false;
     private bool running = false;
@@ -45,8 +44,5 @@ public class Player : MonoBehaviour {
 
         spotlight.GetComponent<PlayerLight>().UpdatePosition(this.transform.position);
         spotlight.GetComponent<PlayerLight>().UpdateSpotAngle(isMoving, running);
-        //cylinder.GetComponent<Cylinder>().UpdatePosition(this.transform.position);
-        //cylinder.GetComponent<Cylinder>().UpdateSpotAngle(isMoving, running);
-
     }
 }
