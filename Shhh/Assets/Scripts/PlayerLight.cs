@@ -16,11 +16,6 @@ public class PlayerLight : MonoBehaviour {
 
     bool animating = false;
 
-    public void UpdatePosition(Vector3 pos)
-    {
-        this.transform.position = new Vector3(pos.x, 7.0f, pos.z);
-    }
-
     public void UpdateSpotAngle(bool isMoving, bool running)
     {
         int state = Convert.ToInt32(isMoving) + Convert.ToInt32(running);
