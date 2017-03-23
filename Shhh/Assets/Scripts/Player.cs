@@ -41,8 +41,7 @@ public class Player : MonoBehaviour {
         moveVelocity *= running ? runSpeed : movSpeed;
 
         controller.Move(moveVelocity);
-
-        spotlight.GetComponent<PlayerLight>().UpdatePosition(this.transform.position);
+        
         spotlight.GetComponent<PlayerLight>().UpdateSpotAngle(isMoving, running);
     }
 }
