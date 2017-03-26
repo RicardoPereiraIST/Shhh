@@ -4,16 +4,12 @@ using UnityEngine;
 
 [RequireComponent(typeof(PlayerController))]
 
-public class Player : MonoBehaviour {
+public class Player : Entity {
 
     public float movSpeed = 2.0f;
     public float runSpeed = 5.0f;
 
     PlayerController controller;
-    public Light spotlight;
-
-    private bool isMoving = false;
-    private bool running = false;
 
     void Start () {
         controller = GetComponent<PlayerController>();
@@ -31,7 +27,15 @@ public class Player : MonoBehaviour {
         }
     }
 
-    void Update () {
+    protected override void UpdateIntensity(Vector3 mov)
+    {
+        if (mov != Vector3.zero)
+            spotlight.GetComponent<Light>().intensity = running ? mov.magnitude * runSpeed : mov.magnitude * movSpeed;
+        else
+            spotlight.GetComponent<Light>().intensity = 1.0f;
+    }
+
+    new void Update () {
         Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         isMoving = (!mov.Equals(Vector3.zero));
         Vector3 moveVelocity = mov.normalized;
@@ -41,7 +45,8 @@ public class Player : MonoBehaviour {
         moveVelocity *= running ? runSpeed : movSpeed;
 
         controller.Move(moveVelocity);
-        
-        spotlight.GetComponent<PlayerLight>().UpdateSpotAngle(isMoving, running);
+
+        UpdateIntensity(mov);
+        base.Update();
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemy : MonoBehaviour {
+public class enemy : Entity {
 
     public bool inRange;
     public float lastX;
@@ -15,13 +15,18 @@ public class enemy : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
         if (inRange)
         {
             float step = 0.85f * Time.deltaTime;
             Vector3 position = new Vector3(lastX, 0, lastZ);
             transform.position = Vector3.MoveTowards(transform.position, position, step);
+            isMoving = true;
         }
+        else
+            isMoving = false;
+
+        base.Update();
     }
 }
