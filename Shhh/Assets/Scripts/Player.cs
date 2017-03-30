@@ -6,13 +6,12 @@ using UnityEngine;
 
 public class Player : Entity {
 
-    public float movSpeed = 2.0f;
-    public float runSpeed = 5.0f;
-
     PlayerController controller;
 
     void Start () {
         controller = GetComponent<PlayerController>();
+        movSpeed = 2f;
+        runSpeed = 5f;
     }
 
     private void checkRunning()
@@ -27,14 +26,6 @@ public class Player : Entity {
         }
     }
 
-    protected override void UpdateIntensity(Vector3 mov)
-    {
-        if (mov != Vector3.zero)
-            spotlight.GetComponent<Light>().intensity = running ? mov.magnitude * runSpeed : mov.magnitude * movSpeed;
-        else
-            spotlight.GetComponent<Light>().intensity = 1.0f;
-    }
-
     new void Update () {
         Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         isMoving = (!mov.Equals(Vector3.zero));
@@ -46,7 +37,6 @@ public class Player : Entity {
 
         controller.Move(moveVelocity);
 
-        UpdateIntensity(mov);
         base.Update();
     }
 }

@@ -5,8 +5,6 @@ using UnityEngine.AI;
 
 public class enemy : Entity {
 
-    public float patrolSpeed = 2f;
-    public float chaseSpeed = 4f;
     public float chaseWaitTime = 3.5f;
     public float patrolWaitTime = 0.5f;
     public Transform[] patrolWayPoints;
@@ -29,6 +27,8 @@ public class enemy : Entity {
         inRange = false;
         lastX = -1;
         lastZ = -1;
+        movSpeed = 2f;
+        runSpeed = 4f;
     }
 
     // Update is called once per frame
@@ -52,7 +52,7 @@ public class enemy : Entity {
     void Chasing(Vector3 position)
     {
         nav.destination = position;
-        nav.speed = chaseSpeed;
+        nav.speed = runSpeed;
         if (nav.remainingDistance < nav.stoppingDistance)
         {
             chaseTimer += Time.deltaTime;
@@ -63,14 +63,18 @@ public class enemy : Entity {
                 chaseTimer = 0f;
             }
             isMoving = false;
+            running = false;
         }
-        else chaseTimer = 0f;
-        isMoving = true;
+        else {
+            chaseTimer = 0f;
+            isMoving = true;
+            running = true;
+        }
     }
 
     void Patrolling()
     {
-        nav.speed = patrolSpeed;
+        nav.speed = movSpeed;
         if (nav.remainingDistance < nav.stoppingDistance)
         {
             patrolTimer += Time.deltaTime;
