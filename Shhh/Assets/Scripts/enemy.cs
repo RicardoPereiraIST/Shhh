@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class enemy : Entity {
 
     public float chaseWaitTime = 3.5f;
     public float patrolWaitTime = 0.5f;
     public Transform[] patrolWayPoints;
+    public Transform playerTransform;
 
     public bool inRange;
     public float lastX;
@@ -35,7 +37,12 @@ public class enemy : Entity {
     new void Update()
     {
         Vector3 position = new Vector3(lastX, 0, lastZ);
-        if (lastX != -1 && position != transform.position)
+        float distance = Vector3.Distance(transform.position, playerTransform.position);
+        if (distance < 2)
+        {
+            Attacking();
+        }
+        else if (lastX != -1 && position != transform.position)
         {
             Chasing(position);
         }
@@ -46,7 +53,7 @@ public class enemy : Entity {
 
     void Attacking()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void Chasing(Vector3 position)
