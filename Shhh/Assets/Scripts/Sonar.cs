@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Sonar : MonoBehaviour {
 
+    public Light playerSpotLight;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag.Equals("enemy"))
@@ -32,5 +34,10 @@ public class Sonar : MonoBehaviour {
             x.lastX = gameObject.transform.position.x;
             x.lastZ = gameObject.transform.position.z;
         }
+    }
+
+    private void Update()
+    {
+        GetComponent<SphereCollider>().radius = playerSpotLight.spotAngle * 0.08f;
     }
 }
