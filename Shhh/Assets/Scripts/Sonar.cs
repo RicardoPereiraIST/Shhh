@@ -9,7 +9,6 @@ public class Sonar : MonoBehaviour {
         if (other.tag.Equals("enemy"))
         {
             enemy x = other.gameObject.GetComponent<enemy>();
-            x.inRange = true;
             x.lastX = gameObject.transform.position.x;
             x.lastZ = gameObject.transform.position.z;
         }
@@ -20,7 +19,6 @@ public class Sonar : MonoBehaviour {
         if (other.tag.Equals("enemy"))
         {
             enemy x = other.gameObject.GetComponent<enemy>();
-            x.inRange = true;
             x.lastX = gameObject.transform.position.x;
             x.lastZ = gameObject.transform.position.z;
         }
@@ -31,7 +29,6 @@ public class Sonar : MonoBehaviour {
         if (other.tag.Equals("enemy"))
         {
             enemy x = other.gameObject.GetComponent<enemy>();
-            x.inRange = false;
             x.lastX = gameObject.transform.position.x;
             x.lastZ = gameObject.transform.position.z;
         }

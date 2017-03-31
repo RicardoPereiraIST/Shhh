@@ -11,7 +11,6 @@ public class enemy : Entity {
     public Transform[] patrolWayPoints;
     public Transform playerTransform;
 
-    public bool inRange;
     public float lastX;
     public float lastZ;
 
@@ -26,11 +25,10 @@ public class enemy : Entity {
     {
         nav = GetComponent<NavMeshAgent>();
         isMoving = false;
-        inRange = false;
         lastX = -1;
         lastZ = -1;
-        movSpeed = 2f;
-        runSpeed = 4f;
+        movSpeed = 2.2f;
+        runSpeed = 4.5f;
     }
 
     // Update is called once per frame
