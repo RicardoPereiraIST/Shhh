@@ -63,6 +63,7 @@ public class PlayerLight : MonoBehaviour {
         {
             percent += Time.deltaTime * animationSpeed;
             this.GetComponent<Light>().spotAngle = Mathf.Lerp(this.GetComponent<Light>().spotAngle, stateToAngle(newState), percent);
+            this.GetComponent<Light>().intensity = Mathf.Lerp(this.GetComponent<Light>().intensity, 0, percent);
             yield return null;
         }
         this.GetComponent<Light>().spotAngle = initSpotAngle;
