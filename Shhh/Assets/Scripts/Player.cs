@@ -7,6 +7,8 @@ using UnityEngine;
 public class Player : Entity {
 
     PlayerController controller;
+    public Camera xrayCam;
+    private bool highlight = false;
 
     void Start () {
         controller = GetComponent<PlayerController>();
@@ -38,5 +40,19 @@ public class Player : Entity {
         controller.Move(moveVelocity);
 
         base.Update();
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            highlight = !highlight;
+        }
+
+        if (highlight)
+        {
+            xrayCam.gameObject.SetActive(true);
+        }
+        else
+        {
+            xrayCam.gameObject.SetActive(false);
+        }
     }
 }
