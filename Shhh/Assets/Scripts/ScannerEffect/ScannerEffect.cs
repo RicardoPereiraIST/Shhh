@@ -13,12 +13,12 @@ public class ScannerEffect : MonoBehaviour
 
     // Demo Code
     bool _scanning;
-    //Scannable[] _scannables;
+    Scannable[] _scannables;
 
     void Start()
     {
         ScannerOrigin = FindObjectOfType<Player>().transform;
-        //_scannables = FindObjectsOfType<Scannable>();
+        _scannables = FindObjectsOfType<Scannable>();
     }
 
     void Update()
@@ -28,23 +28,24 @@ public class ScannerEffect : MonoBehaviour
             if (ScanDistance < maxDistance)
             {
                 ScanDistance += Time.deltaTime * 50;
+                foreach (Scannable s in _scannables)
+                {
+                    if (Vector3.Distance(ScannerOrigin.position, s.transform.position) <= ScanDistance)
+                        s.HighLight();
+                }
             }
             else
             {
                 ScanDistance = 0;
                 _scanning = false;
             }
-            //foreach (Scannable s in _scannables)
-            //{
-            //    if (Vector3.Distance(ScannerOrigin.position, s.transform.position) <= ScanDistance)
-            //        s.Ping();
-            //}
         }
 
         if (Input.GetKeyDown(KeyCode.C))
         {
             _scanning = true;
             ScanDistance = 0;
+            FindObjectOfType<Player>().highlight = true;
         }
 
         //if (Input.GetMouseButtonDown(0))

@@ -8,12 +8,13 @@ public class Player : Entity {
 
     PlayerController controller;
     public Camera xrayCam;
-    private bool highlight = false;
+    public bool highlight = false;
 
     void Start () {
         controller = GetComponent<PlayerController>();
         movSpeed = 2f;
         runSpeed = 5f;
+        showLight = true;
     }
 
     private void checkRunning()
@@ -41,10 +42,10 @@ public class Player : Entity {
 
         base.Update();
 
-        if (Input.GetKeyDown(KeyCode.H))
+        /*if (Input.GetKeyDown(KeyCode.H))
         {
             highlight = !highlight;
-        }
+        }*/
 
         if (highlight)
         {

@@ -29,6 +29,7 @@ public class enemy : Entity {
         lastZ = -1;
         movSpeed = 2.4f;
         runSpeed = 5f;
+        showLight = true;
     }
 
     // Update is called once per frame

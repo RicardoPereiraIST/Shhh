@@ -201,7 +201,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 30814534}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 18.6, z: -26.2}
+  m_LocalPosition: {x: 0.7, y: 25.4, z: -22.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 833081290}
@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 268903325}
   - component: {fileID: 268903324}
   - component: {fileID: 268903329}
+  - component: {fileID: 268903328}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: enemy
@@ -300,6 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spotlight: {fileID: 1737391908}
+  showLight: 0
   chaseWaitTime: 5
   patrolWaitTime: 1
   patrolWayPoints:
@@ -360,6 +362,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 268903322}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &268903328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268903322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe35cddc75bbbe4eabf972f3c10ce17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightTime: 5
 --- !u!195 &268903329
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1896,6 +1910,7 @@ GameObject:
   - component: {fileID: 1497565841}
   - component: {fileID: 1497565840}
   - component: {fileID: 1497565839}
+  - component: {fileID: 1497565844}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: enemy
@@ -1950,6 +1965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spotlight: {fileID: 1502723591}
+  showLight: 0
   chaseWaitTime: 5
   patrolWaitTime: 1
   patrolWayPoints:
@@ -2009,6 +2025,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1497565837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1497565844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497565837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe35cddc75bbbe4eabf972f3c10ce17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightTime: 5
 --- !u!1 &1502723587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2426,7 +2454,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spotlight: {fileID: 961602420}
+  showLight: 0
   xrayCam: {fileID: 2112799502}
+  highlight: 0
 --- !u!114 &1694788846
 MonoBehaviour:
   m_ObjectHideFlags: 0
