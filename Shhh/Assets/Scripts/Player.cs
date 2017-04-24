@@ -8,6 +8,7 @@ public class Player : Entity {
 
     PlayerController controller;
     public Camera xrayCam;
+    public MeshRenderer distraction;
     public bool highlight = false;
 
     void Start () {
@@ -38,7 +39,8 @@ public class Player : Entity {
 
         moveVelocity *= running ? runSpeed : movSpeed;
 
-        controller.Move(moveVelocity);
+        if(!distraction.enabled)
+            controller.Move(moveVelocity);
 
         base.Update();
 
@@ -46,6 +48,25 @@ public class Player : Entity {
         {
             highlight = !highlight;
         }*/
+
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            distraction.enabled = !distraction.enabled;
+        }
+
+        if(distraction.enabled)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+
+                if (Physics.Raycast(ray, out hit))
+                {
+                    Instantiate(spotlight, hit.point, new Quaternion(0,0,0,0));
+                }
+            }
+        }
 
         if (highlight)
         {
