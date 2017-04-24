@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 258770301}
   - component: {fileID: 258770300}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Distraction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -262,8 +262,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 258770298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 1, z: 12}
   m_Children: []
   m_Father: {fileID: 1694788844}
   m_RootOrder: 2
@@ -274,14 +274,14 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 258770298}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 739dba01e5c461b479bc37d981ca2518, type: 2}
+  - {fileID: 2100000, guid: 1b7b8d3abc611dd4893aec7d8744fc69, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -365,6 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spotlight: {fileID: 1737391908}
+  showLight: 0
   chaseWaitTime: 5
   patrolWaitTime: 1
   patrolWayPoints:
@@ -1968,6 +1969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spotlight: {fileID: 1502723591}
+  showLight: 0
   chaseWaitTime: 5
   patrolWaitTime: 1
   patrolWayPoints:
@@ -2445,7 +2447,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spotlight: {fileID: 961602420}
+  showLight: 0
   xrayCam: {fileID: 0}
+  distraction: {fileID: 258770300}
+  highlight: 0
 --- !u!114 &1694788846
 MonoBehaviour:
   m_ObjectHideFlags: 0
