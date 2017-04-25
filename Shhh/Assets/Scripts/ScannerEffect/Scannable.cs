@@ -10,7 +10,7 @@ public class Scannable : MonoBehaviour {
 	public void HighLight()
     {
         Shader sh = Shader.Find("XRay Shaders/Diffuse-XRay-Replaceable");
-        this.GetComponent<Renderer>().material.shader = sh;
+        this.GetComponentInChildren<Renderer>().material.shader = sh;
         lastTime = Time.time;
     }
 
@@ -19,7 +19,7 @@ public class Scannable : MonoBehaviour {
         if(Time.time > lastTime + highlightTime)
         {
             Shader sh = Shader.Find("Standard");
-            this.GetComponent<Renderer>().material.shader = sh;
+            this.GetComponentInChildren<Renderer>().material.shader = sh;
         }
     }
 }
