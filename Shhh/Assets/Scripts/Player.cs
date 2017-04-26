@@ -62,7 +62,7 @@ public class Player : Entity {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
 
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit) && Vector3.Distance(hit.point, transform.position) < distractionEffect.transform.localScale.x)
                 {
                     distractionObject.SetActive(true);
                     Instantiate(distractionObject, hit.point, new Quaternion(0,0,0,0));
