@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -10312,6 +10312,7 @@ MonoBehaviour:
   EffectMaterial: {fileID: 2100000, guid: 0d9079b2a57addc42bc122b2732e59b1, type: 2}
   ScanDistance: 0
   maxDistance: 40
+  _scanning: 0
 --- !u!4 &1322879177 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4795870501998764, guid: 6e9fb3471b3ce9a40aa297cfc795dff7,
@@ -12759,10 +12760,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b3dc1a0d8e7444e99af042114b2bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilityButtonAxisName: Fire1
+  abilityKey: 99
   darkMask: {fileID: 1256764609}
   coolDownTextDisplay: {fileID: 637668951}
-  ability: {fileID: 11400000, guid: 5a4946ee2250dea44af5d0e26fbb5aac, type: 2}
+  ability: {fileID: 11400000, guid: 5e918196fd9742641ba129088a890cc0, type: 2}
   holder: {fileID: 744204155}
 --- !u!114 &1639186254
 MonoBehaviour:

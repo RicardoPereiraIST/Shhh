@@ -23,6 +23,10 @@ public class Player : Entity {
     {
         if (Input.GetKey(KeyCode.LeftShift) && isMoving)
         {
+            running = false;
+        }
+        else if(isMoving)
+        {
             running = true;
         }
         else
@@ -34,14 +38,14 @@ public class Player : Entity {
     new void Update () {
         Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         isMoving = (!mov.Equals(Vector3.zero));
-        Vector3 moveVelocity = mov.normalized;
+        //Vector3 moveVelocity = mov.normalized;
 
         checkRunning();
 
-        moveVelocity *= running ? runSpeed : movSpeed;
+        //moveVelocity *= running ? movSpeed : runSpeed;
 
-        if(!distractionEffect.enabled)
-            controller.Move(moveVelocity);
+        //if(!distractionEffect.enabled)
+        //    controller.Move(moveVelocity);
 
         base.Update();
 

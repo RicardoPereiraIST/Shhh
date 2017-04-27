@@ -12,7 +12,7 @@ public class ScannerEffect : MonoBehaviour
     private Camera _camera;
 
     // Demo Code
-    bool _scanning;
+    [HideInInspector] public bool _scanning;
     Scannable[] _scannables;
 
     void Start()
@@ -41,12 +41,12 @@ public class ScannerEffect : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        /*if (Input.GetKeyDown(KeyCode.C))
         {
             _scanning = true;
             ScanDistance = 0;
             FindObjectOfType<Player>().highlight = true;
-        }
+        }*/
 
         //if (Input.GetMouseButtonDown(0))
         //{

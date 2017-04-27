@@ -20,6 +20,7 @@ public class Scannable : MonoBehaviour {
         {
             Shader sh = Shader.Find("Standard");
             this.GetComponentInChildren<Renderer>().material.shader = sh;
+            FindObjectOfType<Player>().highlight = true;
         }
     }
 }
