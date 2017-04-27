@@ -50,16 +50,6 @@ public class Player : Entity {
 
         base.Update();
 
-        /*if (Input.GetKeyDown(KeyCode.H))
-        {
-            highlight = !highlight;
-        }*/
-
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            distractionEffect.enabled = !distractionEffect.enabled;
-        }
-
         if(distractionEffect.enabled)
         {
             if (Input.GetMouseButtonDown(0))
