@@ -10,7 +10,7 @@ public class AbilityCoolDown : MonoBehaviour
     public Text coolDownTextDisplay;
 
     [SerializeField]
-    private Ability ability;
+    public Ability ability;
     [SerializeField]
     private GameObject holder;
     private Image myButtonImage;
@@ -37,7 +37,7 @@ public class AbilityCoolDown : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         bool coolDownComplete = (Time.time > nextReadyTime);
         if (coolDownComplete)

@@ -11,6 +11,7 @@ public class Player : Entity {
     public MeshRenderer distractionEffect;
     public GameObject distractionObject;
     public bool highlight = false;
+    [HideInInspector] public Dictionary<string, int> items = new Dictionary<string, int>();
 
     void Start () {
         controller = GetComponent<PlayerController>();
