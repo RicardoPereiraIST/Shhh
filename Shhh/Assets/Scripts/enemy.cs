@@ -35,7 +35,7 @@ public class enemy : Entity {
     // Update is called once per frame
     new void Update()
     {
-        /*Vector3 position = new Vector3(lastX, 0, lastZ);
+        Vector3 position = new Vector3(lastX, 0, lastZ);
         float distance = Vector3.Distance(transform.position, playerTransform.position);
         if (distance < 2)
         {
@@ -45,7 +45,7 @@ public class enemy : Entity {
         {
             Chasing(position);
         }
-        else Patrolling();*/
+        else Patrolling();
 
         base.Update();
     }
