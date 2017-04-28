@@ -37,6 +37,7 @@ public class enemy : Entity {
     {
         Vector3 position = new Vector3(lastX, 0, lastZ);
         float distance = Vector3.Distance(transform.position, playerTransform.position);
+        transform.position = nav.transform.position;
         if (distance < 2)
         {
             Attacking();
