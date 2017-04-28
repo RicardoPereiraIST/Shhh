@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OpenDoor : MonoBehaviour {
 
@@ -12,6 +13,7 @@ public class OpenDoor : MonoBehaviour {
     private bool open = false;
     private bool close = true;
     private bool unlocked = false;
+    private string itemAssociated = "key";
 
     private void Start()
     {
@@ -40,17 +42,29 @@ public class OpenDoor : MonoBehaviour {
 
     private void OnCollisionStay(Collision other)
     {
-        if (player.items.ContainsKey("key") && Input.GetKeyDown(keyToUse))
+        if (!unlocked && player.items.ContainsKey("key") && Input.GetKeyDown(keyToUse))
         {
+            player.GetComponent<Player>().items[itemAssociated]--;
             unlocked = true;
             open = true;
             close = false;
             transform.Rotate(0, rotation, 0);
             rotation = -rotation;
             howToUse = "Press " + keyToUse + " to close";
-            player.items.Remove("key");
-            GameObject go = GameObject.Find("UI/key");
-            Destroy(go);
+            GameObject go = GameObject.Find("UI/" + itemAssociated);
+            if (player.GetComponent<Player>().items[itemAssociated] <= 0)
+            {
+                player.items.Remove("key");
+                Destroy(go);
+            }
+            else
+            {
+                foreach (Text text in go.GetComponentsInChildren<Text>())
+                {
+                    if (text.name.Equals("Counter"))
+                        text.text = player.GetComponent<Player>().items[itemAssociated].ToString();
+                }
+            }
         }
 
         else if (unlocked && close && Input.GetKeyDown(keyToUse))
