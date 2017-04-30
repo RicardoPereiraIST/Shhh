@@ -37,16 +37,21 @@ public class enemy : Entity {
     {
         Vector3 position = new Vector3(lastX, 0, lastZ);
         float distance = Vector3.Distance(transform.position, playerTransform.position);
-        transform.position = nav.transform.position;
+        GetComponent<Animator>().fireEvents = true;
         if (distance < 2)
         {
             Attacking();
         }
         else if (lastX != -1 && position != transform.position)
         {
+            GetComponent<Animator>().speed = 2;
             Chasing(position);
         }
-        else Patrolling();
+        else
+        {
+            GetComponent<Animator>().speed = 1;
+            Patrolling();
+        }
 
         base.Update();
     }
