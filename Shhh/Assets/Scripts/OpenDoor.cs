@@ -8,7 +8,7 @@ public class OpenDoor : MonoBehaviour {
     private Player player;
     private bool isTrigger;
     private string howToUse;
-    private float rotation = 90;
+    private float rotation = -110;
     public KeyCode keyToUse;
     private bool open = false;
     private bool close = true;
