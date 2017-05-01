@@ -609,6 +609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   img: {fileID: 672738154}
+  workaround: {fileID: 1593808332}
 --- !u!1 &1394444994
 GameObject:
   m_ObjectHideFlags: 0
