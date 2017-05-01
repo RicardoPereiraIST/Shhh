@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: Distraction
   m_EditorClassIdentifier: 
   aName: Distraction
-  aSprite: {fileID: 21300000, guid: 5485e2f56028a3c4cb54f5caa167377e, type: 3}
+  aSprite: {fileID: 21300000, guid: ecd168cf045d62242978a22e1b63bd57, type: 3}
   aSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   aBaseCoolDown: 3
