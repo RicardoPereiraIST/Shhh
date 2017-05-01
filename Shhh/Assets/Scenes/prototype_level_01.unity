@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465772, g: 0.49641484, b: 0.57481784, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -157,6 +157,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -491,6 +507,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -710,6 +742,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -834,6 +882,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -1014,6 +1078,86 @@ Prefab:
     - target: {fileID: 4426372133955864, guid: d5f7978cda74b014f87515396e08db19, type: 2}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1470620498994372, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1843549489586996, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612813901256178, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144570311420130, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621851595358336, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869382113683710, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042123152691376, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772822325242668, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623737257218804, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144266328474086, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621851595358336, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144266328474086, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869382113683710, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623737257218804, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144570311420130, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1470620498994372, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772822325242668, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612813901256178, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1843549489586996, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042123152691376, guid: d5f7978cda74b014f87515396e08db19, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5f7978cda74b014f87515396e08db19, type: 2}
@@ -1417,6 +1561,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -1631,6 +1791,38 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1969824626889418, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049360902936556, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797904098942172, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738964744883382, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738964744883382, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797904098942172, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049360902936556, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969824626889418, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
   m_IsPrefabParent: 0
@@ -1700,6 +1892,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -2093,6 +2301,22 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -0.026
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -2409,6 +2633,22 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -2653,6 +2893,22 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -0.026
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -2727,6 +2983,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -2776,6 +3048,86 @@ Prefab:
     - target: {fileID: 1690897035625310, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956658571655250, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1142748821647452, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503958964197916, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522536055261348, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805560736466364, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214607088873062, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174752256728416, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570511881503064, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149254526616914, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876344728855424, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214607088873062, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570511881503064, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149254526616914, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876344728855424, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174752256728416, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805560736466364, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522536055261348, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956658571655250, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1142748821647452, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503958964197916, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ee1d300a04860cd4e9f67bb7e74ece99, type: 2}
@@ -3370,6 +3722,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -3443,6 +3811,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -4071,6 +4455,38 @@ Prefab:
     - target: {fileID: 4960669956604454, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969824626889418, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049360902936556, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738964744883382, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797904098942172, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738964744883382, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797904098942172, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049360902936556, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969824626889418, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
@@ -4727,6 +5143,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -4772,6 +5204,134 @@ Prefab:
     - target: {fileID: 4909138113460950, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421754612782392, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166296417776188, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762429822761788, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755818894167198, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406730143707510, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634550573288314, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785368719654882, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042796021832196, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869465069859298, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357764195530024, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824437751065750, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287251254159890, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844285566883850, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788775825231510, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631908498915606, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651003976535710, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631908498915606, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406730143707510, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166296417776188, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651003976535710, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785368719654882, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869465069859298, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755818894167198, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042796021832196, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844285566883850, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421754612782392, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824437751065750, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788775825231510, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287251254159890, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634550573288314, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762429822761788, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357764195530024, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114312165642678688, guid: eb9724f27509b634fb96de7aa813b0db, type: 2}
@@ -4924,6 +5484,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -5182,6 +5758,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -5331,6 +5923,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -5404,6 +6012,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -5603,6 +6227,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -6075,6 +6715,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -6148,6 +6804,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -6315,6 +6987,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -6414,6 +7102,70 @@ Prefab:
     - target: {fileID: 1073808151079486, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196372057539478, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604739832461978, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313823104035912, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1450637418501878, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1475316233184488, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260524105544992, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349808229326748, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728178403797564, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1475316233184488, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728178403797564, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196372057539478, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604739832461978, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349808229326748, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313823104035912, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260524105544992, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1450637418501878, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d6f8d500fe030a419d8456d7ccf444c, type: 2}
@@ -7256,6 +8008,38 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1969824626889418, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738964744883382, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797904098942172, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049360902936556, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738964744883382, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797904098942172, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049360902936556, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969824626889418, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7a9152d2aaafa2428700f9c49dcf9c0, type: 2}
   m_IsPrefabParent: 0
@@ -7330,6 +8114,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -7539,6 +8339,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -7612,6 +8428,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -7884,6 +8716,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -8321,6 +9169,22 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -0.026
       objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -8398,6 +9262,118 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1710023497128152, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517283901391922, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257823158789356, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1663848175722658, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750658259871298, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066011981634618, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359811810879700, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629360672257626, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405615712162858, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901870285607004, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708954265524660, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813660520561122, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116607647665274, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103400406638272, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405615712162858, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103400406638272, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629360672257626, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066011981634618, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710023497128152, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708954265524660, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1663848175722658, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750658259871298, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901870285607004, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517283901391922, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257823158789356, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359811810879700, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813660520561122, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116607647665274, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c09bc345903ae34a9aad60cf3997c4f, type: 2}
   m_IsPrefabParent: 0
@@ -8451,6 +9427,102 @@ Prefab:
     - target: {fileID: 1087756391784062, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1773737786278574, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595430385820374, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775983993611372, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002376423973668, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394912129110434, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1807402825652478, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994949815237632, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666721517404578, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510484846050494, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146051563834616, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290237797828, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232446064949108, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394912129110434, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595430385820374, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510484846050494, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1773737786278574, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775983993611372, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994949815237632, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232446064949108, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290237797828, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666721517404578, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1807402825652478, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002376423973668, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146051563834616, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
@@ -8662,6 +9734,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -8786,6 +9874,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
@@ -9300,6 +10404,22 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -0.026
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -9477,6 +10597,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -9634,6 +10770,22 @@ Prefab:
       propertyPath: m_Name
       value: P_Lamp (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
   m_IsPrefabParent: 0
@@ -9679,6 +10831,70 @@ Prefab:
     - target: {fileID: 4795440264696766, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015645255123546, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896001422870192, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040447140423102, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958395356363154, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314678242625198, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075764553879828, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555074204852522, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364928198101210, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040447140423102, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075764553879828, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555074204852522, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958395356363154, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364928198101210, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015645255123546, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896001422870192, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314678242625198, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b07197ace326d742b58fef9a2daa350, type: 2}
@@ -9784,6 +11000,22 @@ Prefab:
     - target: {fileID: 169710, guid: dc8f3955c063af240afd23143f496335, type: 2}
       propertyPath: m_Name
       value: P_Lamp (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258688106862402, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825223017200414, guid: dc8f3955c063af240afd23143f496335, type: 2}
+      propertyPath: m_Name
+      value: lamp_light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8f3955c063af240afd23143f496335, type: 2}
