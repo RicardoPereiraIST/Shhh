@@ -28,12 +28,14 @@ public class Sonar : MonoBehaviour {
 
     private void OnTriggerExit(Collider other)
     {
+        
         if (other.tag.Equals("enemy"))
         {
             enemy x = other.gameObject.GetComponent<enemy>();
             x.lastX = gameObject.transform.position.x;
             x.lastZ = gameObject.transform.position.z;
         }
+        
     }
 
     private void Update()

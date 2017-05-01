@@ -4,15 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
-public class enemy : Entity {
-
-    public float chaseWaitTime = 3.5f;
-    public float patrolWaitTime = 0.5f;
-    public Transform[] patrolWayPoints;
-    public Transform playerTransform;
-
-    public float lastX;
-    public float lastZ;
+public class QuietEnemy : enemy {
 
     private NavMeshAgent nav;
 
@@ -27,9 +19,9 @@ public class enemy : Entity {
         isMoving = false;
         lastX = -1;
         lastZ = -1;
-        movSpeed = 2.4f;
+        movSpeed = 0f;
         runSpeed = 5f;
-        showLight = true;
+        showLight = false;
     }
 
     // Update is called once per frame
@@ -41,17 +33,14 @@ public class enemy : Entity {
         GetComponent<Animator>().speed = 0;
         if (distance < 2)
         {
+            showLight = true;
             Attacking();
         }
         else if (lastX != -1 && position != transform.position)
         {
             GetComponent<Animator>().speed = 2;
             Chasing(position);
-        }
-        else
-        {
-            GetComponent<Animator>().speed = 1;
-            Patrolling();
+            showLight = true;
         }
 
         base.Update();
@@ -83,30 +72,5 @@ public class enemy : Entity {
             isMoving = true;
             running = true;
         }
-    }
-
-    void Patrolling()
-    {
-        nav.speed = movSpeed;
-        if (nav.remainingDistance < nav.stoppingDistance)
-        {
-            patrolTimer += Time.deltaTime;
-            isMoving = false;
-            if (patrolTimer >= patrolWaitTime)
-            {
-                if (wayPointIndex == patrolWayPoints.Length - 1)
-                    wayPointIndex = 0;
-                else wayPointIndex++;
-
-                patrolTimer = 0f;
-            }
-        }
-        else
-        {
-            patrolTimer = 0f;
-            isMoving = true;
-        }
-
-        nav.destination = patrolWayPoints[wayPointIndex].position;
     }
 }

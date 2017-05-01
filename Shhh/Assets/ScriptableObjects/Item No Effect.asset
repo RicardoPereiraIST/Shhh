@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: Item No Effect
   m_EditorClassIdentifier: 
   aName: No effect
-  aSprite: {fileID: 21300000, guid: eb5f6e2757c821940b69cf1456f7865a, type: 3}
+  aSprite: {fileID: 21300000, guid: 71e131ea351b004459f74e8d7297ad7d, type: 3}
   aSound: {fileID: 0}
   aBaseCoolDown: -1
