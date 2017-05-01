@@ -14,17 +14,21 @@ public class StartMenu : MonoBehaviour {
     void Start()
     {
         //Only for prototype, can't fix redraw
-        img.SetActive(false);
+        if(img)
+            img.SetActive(false);
     }
 
     void Update()
     {
-        workaround.SetActive(false);
-        if (Input.GetButton("Fire1") && img.activeSelf)
+        if (workaround)
         {
-            //Only for prototype, can't fix redraw
-            img.SetActive(false);
-            workaround.SetActive(true);
+            workaround.SetActive(false);
+            if (Input.GetButton("Fire1") && img.activeSelf)
+            {
+                //Only for prototype, can't fix redraw
+                img.SetActive(false);
+                workaround.SetActive(true);
+            }
         }
     }
 
