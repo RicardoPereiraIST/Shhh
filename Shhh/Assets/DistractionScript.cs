@@ -21,6 +21,9 @@ public class DistractionScript : Entity
     // Update is called once per frame
     new void Update()
     {
+        if (FindObjectOfType<Player>().distractionEffect.enabled)
+            FindObjectOfType<Player>().distractionEffect.enabled = false;
+
         base.Update();
     }
 }

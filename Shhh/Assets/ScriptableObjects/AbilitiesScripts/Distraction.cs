@@ -11,6 +11,7 @@ public class Distraction : Ability {
 
     public override void TriggerAbility()
     {
-        FindObjectOfType<Player>().distractionEffect.enabled = !FindObjectOfType<Player>().distractionEffect.enabled;
+        if (!FindObjectOfType<Player>().distractionEffect.enabled)
+            FindObjectOfType<Player>().distractionEffect.enabled = true;
     }
 }
