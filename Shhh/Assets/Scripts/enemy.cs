@@ -28,7 +28,7 @@ public class enemy : Entity {
         lastX = -1;
         lastZ = -1;
         movSpeed = 2.4f;
-        runSpeed = 5f;
+        runSpeed = 5.3f;
         showLight = true;
     }
 

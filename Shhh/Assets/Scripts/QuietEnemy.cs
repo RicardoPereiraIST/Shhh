@@ -20,7 +20,7 @@ public class QuietEnemy : enemy {
         lastX = -1;
         lastZ = -1;
         movSpeed = 0f;
-        runSpeed = 5f;
+        runSpeed = 5.5f;
         showLight = false;
     }
 
