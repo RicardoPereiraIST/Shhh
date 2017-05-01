@@ -8,10 +8,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: DistractionAbility
-  m_EditorClassIdentifier: Assembly-CSharp::DistractionAbility
+  m_Script: {fileID: 11500000, guid: 96721088dbd10c946a2f48e0aa596534, type: 3}
+  m_Name: Distraction
+  m_EditorClassIdentifier: 
   aName: Distraction
   aSprite: {fileID: 21300000, guid: 5485e2f56028a3c4cb54f5caa167377e, type: 3}
-  aSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
-  aBaseCoolDown: 0
+  aSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
+  aBaseCoolDown: 3

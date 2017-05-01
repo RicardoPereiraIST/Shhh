@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [CreateAssetMenu (menuName = "Abilities/Distraction")]
-public class DistractionAbility : Ability {
+public class Distraction : Ability {
 
     public override void Initialize(GameObject obj)
     {
