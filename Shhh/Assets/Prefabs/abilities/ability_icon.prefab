@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114595975072446284}
   - component: {fileID: 82713094798529488}
   m_Layer: 5
-  m_Name: AbilityIcon
+  m_Name: ability_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
