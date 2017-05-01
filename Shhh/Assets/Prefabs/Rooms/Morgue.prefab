@@ -194,7 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4180564990142120}
   m_Layer: 0
-  m_Name: morgue
+  m_Name: Morgue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
