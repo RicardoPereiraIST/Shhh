@@ -36,6 +36,6 @@ public class EnemySonar : MonoBehaviour {
 
     private void Update()
     {
-        GetComponent<SphereCollider>().radius = enemySpotLight.spotAngle * 0.08f;
+        GetComponent<SphereCollider>().radius = enemySpotLight.spotAngle * 0.05f;
     }
 }

@@ -42,6 +42,7 @@ public class QuietEnemy : enemy {
             Chasing(position);
             showLight = true;
         }
+        else showLight = false;
 
         base.Update();
     }
