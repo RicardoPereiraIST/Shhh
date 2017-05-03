@@ -162,6 +162,11 @@ Prefab:
       propertyPath: m_Name
       value: Morgue
       objectReference: {fileID: 0}
+    - target: {fileID: 23896154534725406, guid: 58d91db04eb73a341877b057035ee3c3,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4990805c1c50be04e8550a02de9ce207, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58d91db04eb73a341877b057035ee3c3, type: 2}
   m_IsPrefabParent: 0
