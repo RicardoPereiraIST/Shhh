@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class QuietEnemy : enemy {
 
+	/*
     private NavMeshAgent nav;
 
     private float chaseTimer;
     private float patrolTimer;
     private int wayPointIndex;
-
+	*/
     // Use this for initialization
     void Start()
     {

@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -26697,7 +26697,13 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 218542184209893106, guid: ba1db63cb170dac4697cb8a0487934de,
+        type: 2}
+      propertyPath: m_BakeLightProbesForTrees
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114518091058889042, guid: ba1db63cb170dac4697cb8a0487934de, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: ba1db63cb170dac4697cb8a0487934de, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1291293594

@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     Vector3 velocity;
-    Rigidbody myRigidbody;
+    //Rigidbody myRigidbody;
 
     void Start () {
-        myRigidbody = GetComponent<Rigidbody>();
+        //myRigidbody = GetComponent<Rigidbody>();
     }
 
     /*public void Move(Vector3 _velocity)

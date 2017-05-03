@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Player : Entity {
 
-    PlayerController controller;
+    //PlayerController controller;
     public Camera xrayCam;
     public MeshRenderer distractionEffect;
     public GameObject distractionObject;
@@ -14,7 +14,7 @@ public class Player : Entity {
     [HideInInspector] public Dictionary<string, int> items = new Dictionary<string, int>();
 
     void Start () {
-        controller = GetComponent<PlayerController>();
+        //controller = GetComponent<PlayerController>();
         movSpeed = 2f;
         runSpeed = 5f;
         showLight = true;

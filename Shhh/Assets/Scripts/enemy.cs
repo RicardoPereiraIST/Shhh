@@ -14,11 +14,11 @@ public class enemy : Entity {
     public float lastX;
     public float lastZ;
 
-    private NavMeshAgent nav;
+    protected NavMeshAgent nav;
 
-    private float chaseTimer;
-    private float patrolTimer;
-    private int wayPointIndex;
+	protected float chaseTimer;
+	protected float patrolTimer;
+	protected int wayPointIndex;
 
     // Use this for initialization
     void Start()
