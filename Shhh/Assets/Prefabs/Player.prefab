@@ -96,7 +96,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4191275039001570}
   m_Layer: 0
-  m_Name: Player
+  m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,7 +372,8 @@ MonoBehaviour:
   spotlight: {fileID: 108168214251488192}
   showLight: 0
   xrayCam: {fileID: 0}
-  distraction: {fileID: 23312655349766710}
+  distractionEffect: {fileID: 0}
+  distractionObject: {fileID: 0}
   highlight: 0
 --- !u!114 &114582182410379288
 MonoBehaviour:

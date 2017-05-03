@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: spind_01a
-  m_Shader: {fileID: 4800000, guid: e44ca0e8aea2deb4cbc38e4115121bb7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3710351f4949d3749ba82cad2647379f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1

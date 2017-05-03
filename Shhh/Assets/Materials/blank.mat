@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: MOB_Office_Set_A_Cooler_01
+  m_Name: blank
   m_Shader: {fileID: 4800000, guid: 3710351f4949d3749ba82cad2647379f, type: 3}
-  m_ShaderKeywords: _EMISSION _NORMALMAP
+  m_ShaderKeywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -18,7 +18,7 @@ Material:
     - first:
         name: _BumpMap
       second:
-        m_Texture: {fileID: 2800000, guid: d5c42f6fdb4d77f409e0b37e69e64850, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: ea1d78bb4b95c3a4a93451ce8970f2bc, type: 3}
+        m_Texture: {fileID: 2800000, guid: fad98a672a5cac5479470ea3bd3ed3c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -87,13 +87,13 @@ Material:
       second: 1
     - first:
         name: _Glossiness
-      second: 0.83
+      second: 1
     - first:
         name: _GlossyReflections
       second: 1
     - first:
         name: _Metallic
-      second: 0.18
+      second: 1
     - first:
         name: _Mode
       second: 0
@@ -104,11 +104,8 @@ Material:
         name: _Parallax
       second: 0.02
     - first:
-        name: _Shininess
-      second: 0.07
-    - first:
         name: _SmoothnessTextureChannel
-      second: 0
+      second: 1
     - first:
         name: _SpecularHighlights
       second: 1
@@ -124,10 +121,7 @@ Material:
     m_Colors:
     - first:
         name: _Color
-      second: {r: 0.625, g: 0.6204044, b: 0.6204044, a: 1}
+      second: {r: 0, g: 0, b: 0, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
-    - first:
-        name: _SpecColor
-      second: {r: 1, g: 1, b: 1, a: 1}
