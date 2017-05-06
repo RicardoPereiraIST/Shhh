@@ -2716,6 +2716,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightTime: 5
+  originalSh: {fileID: 4800000, guid: 0a8a33aed56087c4bb6f8272cae4dfa5, type: 3}
+  finalSh: {fileID: 4800000, guid: 3710351f4949d3749ba82cad2647379f, type: 3}
 --- !u!114 &114575558525325480
 MonoBehaviour:
   m_ObjectHideFlags: 1
