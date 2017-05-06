@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 4158921}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 6810862}
   m_Layer: 0
   m_Name: Wall (DoorWay)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 7286489}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -370,19 +370,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4769858221358030, guid: 5ec2c9498aadb744d8b9515723738fdc, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.53267515
+      value: 0.5326752
       objectReference: {fileID: 0}
     - target: {fileID: 4769858221358030, guid: 5ec2c9498aadb744d8b9515723738fdc, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.07034045
+      value: 0.070340455
       objectReference: {fileID: 0}
     - target: {fileID: 4769858221358030, guid: 5ec2c9498aadb744d8b9515723738fdc, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.83613265
+      value: 0.83613276
       objectReference: {fileID: 0}
     - target: {fileID: 4769858221358030, guid: 5ec2c9498aadb744d8b9515723738fdc, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.11041513
+      value: -0.110415146
       objectReference: {fileID: 0}
     - target: {fileID: 1637283722494064, guid: 5ec2c9498aadb744d8b9515723738fdc, type: 2}
       propertyPath: m_IsActive
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 23146047}
   m_Layer: 0
   m_Name: Stretcher (10)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 24157413}
   m_Layer: 0
   m_Name: Stretcher (17)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 42755573}
   m_Layer: 0
   m_Name: Box001
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 55129923}
   m_Layer: 0
   m_Name: front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 56305286}
   m_Layer: 0
   m_Name: locker_01b
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -874,7 +874,7 @@ GameObject:
   - component: {fileID: 62063974}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 69909422}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1075,7 +1075,7 @@ GameObject:
   - component: {fileID: 75913166}
   m_Layer: 0
   m_Name: Quad (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 89773646}
   m_Layer: 0
   m_Name: boxes
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1219,7 +1219,7 @@ GameObject:
   - component: {fileID: 111256169}
   m_Layer: 0
   m_Name: P_Lamp (24)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1253,7 +1253,7 @@ GameObject:
   - component: {fileID: 118604117}
   m_Layer: 0
   m_Name: Door_01_Base
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 157407823}
   m_Layer: 0
   m_Name: Quad (2)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1718,7 +1718,7 @@ GameObject:
   - component: {fileID: 157606015}
   m_Layer: 0
   m_Name: rooms
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1873,7 +1873,7 @@ GameObject:
   - component: {fileID: 206340205}
   m_Layer: 0
   m_Name: P_Lamp (18)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2040,7 +2040,7 @@ GameObject:
   - component: {fileID: 237692821}
   m_Layer: 0
   m_Name: Wall Segment (18)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2200,7 +2200,7 @@ GameObject:
   - component: {fileID: 293265946}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2403,7 +2403,7 @@ GameObject:
   - component: {fileID: 301534109}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -2519,7 +2519,7 @@ GameObject:
   - component: {fileID: 325652402}
   m_Layer: 0
   m_Name: Stretcher (13)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -2604,7 +2604,7 @@ GameObject:
   - component: {fileID: 330998222}
   m_Layer: 0
   m_Name: back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -2738,7 +2738,7 @@ GameObject:
   - component: {fileID: 355785328}
   m_Layer: 0
   m_Name: collision
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2784,7 +2784,7 @@ GameObject:
   - component: {fileID: 359128734}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -2870,7 +2870,7 @@ GameObject:
   - component: {fileID: 361877056}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -2986,7 +2986,7 @@ GameObject:
   - component: {fileID: 368184377}
   m_Layer: 0
   m_Name: Quad (7)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3070,7 +3070,7 @@ GameObject:
   - component: {fileID: 374751415}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -3156,7 +3156,7 @@ GameObject:
   - component: {fileID: 377167386}
   m_Layer: 0
   m_Name: Stretcher (14)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -3303,7 +3303,7 @@ GameObject:
   - component: {fileID: 392619943}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -3419,7 +3419,7 @@ GameObject:
   - component: {fileID: 395524887}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -3505,7 +3505,7 @@ GameObject:
   - component: {fileID: 395747832}
   m_Layer: 0
   m_Name: Stretcher (5)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -3622,7 +3622,7 @@ GameObject:
   - component: {fileID: 405055754}
   m_Layer: 0
   m_Name: Door_01_C
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -3830,7 +3830,7 @@ GameObject:
   - component: {fileID: 439480819}
   m_Layer: 0
   m_Name: Box001
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3933,7 +3933,7 @@ GameObject:
   - component: {fileID: 456887512}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4138,7 +4138,7 @@ GameObject:
   - component: {fileID: 476697774}
   m_Layer: 0
   m_Name: Wall (DoorWay)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4203,7 +4203,7 @@ GameObject:
   - component: {fileID: 500081246}
   m_Layer: 0
   m_Name: morgue
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4241,7 +4241,7 @@ GameObject:
   - component: {fileID: 508275347}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -4327,7 +4327,7 @@ GameObject:
   - component: {fileID: 509176456}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -4443,7 +4443,7 @@ GameObject:
   - component: {fileID: 525796020}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -4529,7 +4529,7 @@ GameObject:
   - component: {fileID: 548999085}
   m_Layer: 0
   m_Name: locker_01b (7)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4617,7 +4617,7 @@ GameObject:
   - component: {fileID: 553448055}
   m_Layer: 0
   m_Name: Quad (3)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4759,7 +4759,7 @@ GameObject:
   - component: {fileID: 571738928}
   m_Layer: 0
   m_Name: Wall Segment (31)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4856,7 +4856,7 @@ GameObject:
   - component: {fileID: 594187366}
   m_Layer: 0
   m_Name: doorway
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4950,7 +4950,7 @@ GameObject:
   - component: {fileID: 604358807}
   m_Layer: 0
   m_Name: Box001
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5050,7 +5050,7 @@ GameObject:
   - component: {fileID: 646170125}
   m_Layer: 0
   m_Name: doorway
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5081,7 +5081,7 @@ GameObject:
   - component: {fileID: 647197647}
   m_Layer: 0
   m_Name: lights
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5117,7 +5117,7 @@ GameObject:
   - component: {fileID: 649662606}
   m_Layer: 0
   m_Name: door
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5183,7 +5183,7 @@ GameObject:
   - component: {fileID: 656690773}
   m_Layer: 0
   m_Name: Door_01_Base
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -5271,7 +5271,7 @@ GameObject:
   - component: {fileID: 664330502}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -5354,7 +5354,7 @@ GameObject:
   - component: {fileID: 668639517}
   m_Layer: 0
   m_Name: Wall Segment (26)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5390,7 +5390,7 @@ GameObject:
   - component: {fileID: 671314862}
   m_Layer: 0
   m_Name: Glass_01
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -5509,7 +5509,7 @@ GameObject:
   - component: {fileID: 686150246}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -5810,7 +5810,7 @@ GameObject:
   - component: {fileID: 747666091}
   m_Layer: 0
   m_Name: lockers
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5882,7 +5882,7 @@ GameObject:
   - component: {fileID: 750224102}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5997,7 +5997,7 @@ GameObject:
   - component: {fileID: 758621551}
   m_Layer: 0
   m_Name: front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -6072,7 +6072,7 @@ GameObject:
   - component: {fileID: 765469004}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -6158,7 +6158,7 @@ GameObject:
   - component: {fileID: 773519010}
   m_Layer: 0
   m_Name: Stretcher (18)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -6303,7 +6303,7 @@ GameObject:
   - component: {fileID: 778657631}
   m_Layer: 0
   m_Name: Wall Segment (26)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6511,7 +6511,7 @@ GameObject:
   - component: {fileID: 816198887}
   m_Layer: 0
   m_Name: Stretcher (7)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -6625,7 +6625,7 @@ GameObject:
   - component: {fileID: 833493289}
   m_Layer: 0
   m_Name: P_Lamp (20)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6659,7 +6659,7 @@ GameObject:
   - component: {fileID: 850056799}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6899,7 +6899,7 @@ GameObject:
   - component: {fileID: 894482686}
   m_Layer: 0
   m_Name: Stretcher
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -7014,7 +7014,7 @@ GameObject:
   - component: {fileID: 908272887}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7183,7 +7183,7 @@ GameObject:
   - component: {fileID: 942296925}
   m_Layer: 0
   m_Name: P_Lamp (23)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7217,7 +7217,7 @@ GameObject:
   - component: {fileID: 943645708}
   m_Layer: 0
   m_Name: Stretcher (6)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -7418,7 +7418,7 @@ GameObject:
   - component: {fileID: 958277335}
   m_Layer: 0
   m_Name: Box001
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7522,7 +7522,7 @@ GameObject:
   - component: {fileID: 978002324}
   m_Layer: 0
   m_Name: Stretcher (3)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -7639,7 +7639,7 @@ GameObject:
   - component: {fileID: 994786052}
   m_Layer: 0
   m_Name: Stretcher (4)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -7724,7 +7724,7 @@ GameObject:
   - component: {fileID: 995547511}
   m_Layer: 0
   m_Name: Quad (8)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7808,7 +7808,7 @@ GameObject:
   - component: {fileID: 996162548}
   m_Layer: 0
   m_Name: Concrete (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7893,7 +7893,7 @@ GameObject:
   - component: {fileID: 1001643910}
   m_Layer: 0
   m_Name: Quad (5)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7976,7 +7976,7 @@ GameObject:
   - component: {fileID: 1010521285}
   m_Layer: 0
   m_Name: back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -8051,7 +8051,7 @@ GameObject:
   - component: {fileID: 1023884781}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8164,7 +8164,7 @@ GameObject:
   - component: {fileID: 1034740478}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8201,7 +8201,7 @@ GameObject:
   - component: {fileID: 1043466379}
   m_Layer: 0
   m_Name: locker_01b (4)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8497,7 +8497,7 @@ GameObject:
   - component: {fileID: 1077269725}
   m_Layer: 0
   m_Name: collision
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8814,7 +8814,7 @@ GameObject:
   - component: {fileID: 1107679253}
   m_Layer: 0
   m_Name: door 2
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8847,7 +8847,7 @@ GameObject:
   - component: {fileID: 1129127561}
   m_Layer: 0
   m_Name: Wall Segment (31)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8880,7 +8880,7 @@ GameObject:
   - component: {fileID: 1138688622}
   m_Layer: 0
   m_Name: doorway_b
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8911,7 +8911,7 @@ GameObject:
   - component: {fileID: 1139788039}
   m_Layer: 0
   m_Name: Wall Segment (21)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9070,7 +9070,7 @@ GameObject:
   - component: {fileID: 1168066031}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -9156,7 +9156,7 @@ GameObject:
   - component: {fileID: 1193608236}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9329,7 +9329,7 @@ GameObject:
   - component: {fileID: 1210291752}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9415,7 +9415,7 @@ GameObject:
   - component: {fileID: 1219490722}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -9532,7 +9532,7 @@ GameObject:
   - component: {fileID: 1247384063}
   m_Layer: 0
   m_Name: Stretcher (12)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -9649,7 +9649,7 @@ GameObject:
   - component: {fileID: 1253104289}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -9732,7 +9732,7 @@ GameObject:
   - component: {fileID: 1267591759}
   m_Layer: 0
   m_Name: door
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9767,7 +9767,7 @@ GameObject:
   - component: {fileID: 1272560231}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -9850,7 +9850,7 @@ GameObject:
   - component: {fileID: 1276050028}
   m_Layer: 0
   m_Name: doorway_b
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9947,7 +9947,7 @@ GameObject:
   - component: {fileID: 1319740571}
   m_Layer: 0
   m_Name: Wall (Small)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10015,7 +10015,7 @@ GameObject:
   - component: {fileID: 1327788580}
   m_Layer: 0
   m_Name: Stretcher (11)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -10175,7 +10175,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 23de182b7b442084c8fa50bdb89adad5, type: 2}
+  - {fileID: 2100000, guid: e6aff5ce217a55640bc351f93d1a64fc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10340,7 +10340,7 @@ GameObject:
   - component: {fileID: 1344433762}
   m_Layer: 0
   m_Name: Wall Segment (27)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10406,7 +10406,7 @@ GameObject:
   - component: {fileID: 1355117523}
   m_Layer: 0
   m_Name: Concrete (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10606,7 +10606,7 @@ GameObject:
   - component: {fileID: 1381060065}
   m_Layer: 0
   m_Name: P_Lamp (22)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10639,7 +10639,7 @@ GameObject:
   - component: {fileID: 1386584879}
   m_Layer: 0
   m_Name: Quad (4)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10723,7 +10723,7 @@ GameObject:
   - component: {fileID: 1391282786}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -10806,7 +10806,7 @@ GameObject:
   - component: {fileID: 1395278818}
   m_Layer: 0
   m_Name: walls_old
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10884,7 +10884,7 @@ GameObject:
   - component: {fileID: 1407046056}
   m_Layer: 0
   m_Name: locker_01b (2)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11101,7 +11101,7 @@ GameObject:
   - component: {fileID: 1434291061}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11222,7 +11222,7 @@ GameObject:
   - component: {fileID: 1446767081}
   m_Layer: 0
   m_Name: Wall (Small) (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11341,7 +11341,7 @@ GameObject:
   - component: {fileID: 1450461302}
   m_Layer: 0
   m_Name: stretchers
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11512,7 +11512,7 @@ GameObject:
   - component: {fileID: 1470171683}
   m_Layer: 0
   m_Name: Stretcher (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -11723,7 +11723,7 @@ GameObject:
   - component: {fileID: 1493397447}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11839,7 +11839,7 @@ GameObject:
   - component: {fileID: 1508378201}
   m_Layer: 0
   m_Name: Box001
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11943,7 +11943,7 @@ GameObject:
   - component: {fileID: 1521394992}
   m_Layer: 0
   m_Name: Stretcher (9)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -12056,7 +12056,7 @@ GameObject:
   - component: {fileID: 1522373894}
   m_Layer: 0
   m_Name: Wall Segment (27)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12092,7 +12092,7 @@ GameObject:
   - component: {fileID: 1551761921}
   m_Layer: 0
   m_Name: Stretcher (8)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -12324,7 +12324,7 @@ GameObject:
   - component: {fileID: 1591281217}
   m_Layer: 0
   m_Name: Wall Segment (20)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12391,7 +12391,7 @@ GameObject:
   - component: {fileID: 1605648704}
   m_Layer: 0
   m_Name: locker_01b (3)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12875,7 +12875,7 @@ GameObject:
   - component: {fileID: 1641451613}
   m_Layer: 0
   m_Name: collision
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12982,7 +12982,7 @@ GameObject:
   - component: {fileID: 1665357017}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -13256,7 +13256,7 @@ GameObject:
   - component: {fileID: 1728564679}
   m_Layer: 0
   m_Name: Stretcher (16)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -13342,7 +13342,7 @@ GameObject:
   - component: {fileID: 1731545455}
   m_Layer: 0
   m_Name: P_Med_box_01 (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -13460,7 +13460,7 @@ GameObject:
   - component: {fileID: 1760934725}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -13545,7 +13545,7 @@ GameObject:
   - component: {fileID: 1763381227}
   m_Layer: 0
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13659,7 +13659,7 @@ GameObject:
   - component: {fileID: 1767732674}
   m_Layer: 0
   m_Name: Quad (6)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13773,7 +13773,7 @@ GameObject:
   - component: {fileID: 1774745534}
   m_Layer: 0
   m_Name: Box001
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13877,7 +13877,7 @@ GameObject:
   - component: {fileID: 1789008813}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13994,7 +13994,7 @@ GameObject:
   - component: {fileID: 1792485667}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14227,7 +14227,7 @@ GameObject:
   - component: {fileID: 1810312038}
   m_Layer: 0
   m_Name: Quad (9)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14369,7 +14369,7 @@ GameObject:
   - component: {fileID: 1819933201}
   m_Layer: 0
   m_Name: Wall Segment (19)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14405,7 +14405,7 @@ GameObject:
   - component: {fileID: 1822936784}
   m_Layer: 0
   m_Name: locker_01b (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14491,7 +14491,7 @@ GameObject:
   - component: {fileID: 1827110298}
   m_Layer: 0
   m_Name: door
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14559,7 +14559,7 @@ GameObject:
   - component: {fileID: 1836807672}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -14680,7 +14680,7 @@ GameObject:
   - component: {fileID: 1845392512}
   m_Layer: 0
   m_Name: P_Med_box_01
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -14768,7 +14768,7 @@ GameObject:
   - component: {fileID: 1858567196}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14854,7 +14854,7 @@ GameObject:
   - component: {fileID: 1865243309}
   m_Layer: 0
   m_Name: Stretcher (15)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -14940,7 +14940,7 @@ GameObject:
   - component: {fileID: 1879729473}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -15023,7 +15023,7 @@ GameObject:
   - component: {fileID: 1888165189}
   m_Layer: 0
   m_Name: P_Lamp (21)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15149,7 +15149,7 @@ GameObject:
   - component: {fileID: 1898933496}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -15235,7 +15235,7 @@ GameObject:
   - component: {fileID: 1902077453}
   m_Layer: 0
   m_Name: Door_01_Base
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -15323,7 +15323,7 @@ GameObject:
   - component: {fileID: 1903033073}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15409,7 +15409,7 @@ GameObject:
   - component: {fileID: 1929830790}
   m_Layer: 0
   m_Name: Door_01_C
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -15527,7 +15527,7 @@ GameObject:
   - component: {fileID: 1957659065}
   m_Layer: 0
   m_Name: Stretcher (19)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -15643,7 +15643,7 @@ GameObject:
   - component: {fileID: 1964674151}
   m_Layer: 0
   m_Name: Stretcher (2)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -15795,7 +15795,7 @@ GameObject:
   - component: {fileID: 1977258108}
   m_Layer: 0
   m_Name: locker_01b (8)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15884,7 +15884,7 @@ GameObject:
   - component: {fileID: 2006917363}
   m_Layer: 0
   m_Name: locker_01b (5)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15970,7 +15970,7 @@ GameObject:
   - component: {fileID: 2007801723}
   m_Layer: 0
   m_Name: clutter
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16068,7 +16068,7 @@ GameObject:
   - component: {fileID: 2021161371}
   m_Layer: 0
   m_Name: Concrete
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16331,7 +16331,7 @@ GameObject:
   - component: {fileID: 2036576159}
   m_Layer: 0
   m_Name: Glass_01
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -16589,7 +16589,7 @@ GameObject:
   - component: {fileID: 2055522436}
   m_Layer: 0
   m_Name: Quad
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16701,7 +16701,7 @@ GameObject:
   - component: {fileID: 2060792098}
   m_Layer: 0
   m_Name: collision
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16995,7 +16995,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 23de182b7b442084c8fa50bdb89adad5, type: 2}
+  - {fileID: 2100000, guid: e6aff5ce217a55640bc351f93d1a64fc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17046,7 +17046,7 @@ GameObject:
   - component: {fileID: 2115174474}
   m_Layer: 0
   m_Name: Stretcher (20)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -17163,7 +17163,7 @@ GameObject:
   - component: {fileID: 2133030962}
   m_Layer: 0
   m_Name: Door_01_Base
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1

@@ -8,29 +8,25 @@ public class sonarcolor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        other.GetComponent<Renderer>().material.SetColor("_EdgeColor", edgeColor);
+        if (other.tag.Equals("Environment"))
+        {
+            other.GetComponent<Renderer>().material.SetColor("_EdgeColor", edgeColor);
+        }
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag.Equals("enemy"))
+        if (other.tag.Equals("Environment"))
         {
-            enemy x = other.gameObject.GetComponent<enemy>();
-            x.lastX = gameObject.transform.position.x;
-            x.lastZ = gameObject.transform.position.z;
+            other.GetComponent<Renderer>().material.SetColor("_EdgeColor", edgeColor);
         }
-        other.GetComponent<Renderer>().material.SetColor("_EdgeColor", edgeColor);
     }
 
     private void OnTriggerExit(Collider other)
     {
-
-        if (other.tag.Equals("enemy"))
+        if (other.tag.Equals("Environment"))
         {
-            enemy x = other.gameObject.GetComponent<enemy>();
-            x.lastX = gameObject.transform.position.x;
-            x.lastZ = gameObject.transform.position.z;
+            other.GetComponent<Renderer>().material.SetColor("_EdgeColor", edgeColor);
         }
-        other.GetComponent<Renderer>().material.SetColor("_EdgeColor", edgeColor);
     }
 }
