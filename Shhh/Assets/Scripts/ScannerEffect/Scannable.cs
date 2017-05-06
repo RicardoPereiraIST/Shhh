@@ -7,10 +7,20 @@ public class Scannable : MonoBehaviour {
     public float highlightTime = 5;
     private float lastTime;
 
-	public void HighLight()
+    public Shader originalSh;
+    public Shader finalSh;
+    public Color color = Color.white;
+
+    private void Start()
     {
-        Shader sh = Shader.Find("XRay Shaders/Diffuse-XRay-Replaceable");
-        this.GetComponentInChildren<Renderer>().material.shader = sh;
+        originalSh = this.GetComponentInChildren<Renderer>().material.shader;
+    }
+
+
+    public void HighLight()
+    {
+        this.GetComponentInChildren<Renderer>().material.shader = finalSh;
+        this.GetComponentInChildren<Renderer>().material.color = color;
         lastTime = Time.time;
     }
 
@@ -18,8 +28,7 @@ public class Scannable : MonoBehaviour {
     {
         if(Time.time > lastTime + highlightTime)
         {
-            Shader sh = Shader.Find("Standard");
-            this.GetComponentInChildren<Renderer>().material.shader = sh;
+            this.GetComponentInChildren<Renderer>().material.shader = originalSh;
             FindObjectOfType<Player>().highlight = true;
         }
     }

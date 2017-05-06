@@ -23,6 +23,7 @@ public class ScannerEffect : MonoBehaviour
 
     void Update()
     {
+        _scannables = FindObjectsOfType<Scannable>();
         if (_scanning)
         {
             if (ScanDistance < maxDistance)

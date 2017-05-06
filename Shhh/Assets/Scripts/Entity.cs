@@ -22,14 +22,14 @@ public class Entity : MonoBehaviour {
 
     // Update is called once per frame
     protected void Update () {
-        if (showLight)
-        {
-            spotlight.GetComponent<PlayerLight>().UpdateSpotAngle(isMoving, running);
-            UpdateIntensity();
-        }
-        else
-        {
-            spotlight.GetComponent<PlayerLight>().GetComponent<Light>().spotAngle = 0;
-        }
+        //if (showLight)
+        //{
+        //    spotlight.GetComponent<PlayerLight>().UpdateSpotAngle(isMoving, running);
+        //    UpdateIntensity();
+        //}
+        //else
+        //{
+        //    spotlight.GetComponent<PlayerLight>().GetComponent<Light>().spotAngle = 0;
+        //}
     }
 }
