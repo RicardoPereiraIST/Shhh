@@ -9,6 +9,7 @@ public class Scannable : MonoBehaviour {
 
     public Shader originalSh;
     public Shader finalSh;
+    public Color color = Color.white;
 
     private void Start()
     {
@@ -19,6 +20,7 @@ public class Scannable : MonoBehaviour {
     public void HighLight()
     {
         this.GetComponentInChildren<Renderer>().material.shader = finalSh;
+        this.GetComponentInChildren<Renderer>().material.color = color;
         lastTime = Time.time;
     }
 
