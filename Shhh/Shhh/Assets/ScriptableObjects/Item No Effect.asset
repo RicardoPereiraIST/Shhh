@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3224cc03782d3b41993359d18d9f1f2, type: 3}
+  m_Name: Item No Effect
+  m_EditorClassIdentifier: 
+  aName: No effect
+  aSprite: {fileID: 21300000, guid: 71e131ea351b004459f74e8d7297ad7d, type: 3}
+  aSound: {fileID: 0}
+  aBaseCoolDown: -1

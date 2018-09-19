@@ -462,8 +462,9 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
-  cloudProjectId: 14b0a771-5340-42b6-8ad7-9bf296b225b0
-  projectName: Shhh (1)
-  organizationId: carteiras
+  cloudProjectId: d218aa13-02f0-4cfb-a3ee-41a353641025
+  projectName: Shhh
+  organizationId: shhh-devteam
   cloudEnabled: 0

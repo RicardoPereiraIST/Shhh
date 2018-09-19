@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1482f00c66333f40934550d694755bb, type: 3}
+  m_Name: StunItem
+  m_EditorClassIdentifier: 
+  iName: Stun
+  iDescription: Press E to pick stun
+  itemKey: 122
+  itemDescription: Stuns enemy
+  iSprite: {fileID: 21300000, guid: d6963a2eeeedacf4abbdc963435d8467, type: 3}
+  iSound: {fileID: 8300000, guid: 4ca70821ffc6845e3ba96efb372412a1, type: 3}
+  iBaseCoolDown: 20
+  isMultiUse: 1
+  maxStack: 4
+  showMessage: 0
+  showIcon: 1
+  isInteractable: 0
+  maxDist: 30
